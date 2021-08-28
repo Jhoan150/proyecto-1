@@ -21,7 +21,4 @@ Auth::routes();
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-#Route::grojup('admin')->group(function () {
-    
-#});
+Route::get('/vista1', [App\Http\Controllers\HomeController::class, 'index']);
