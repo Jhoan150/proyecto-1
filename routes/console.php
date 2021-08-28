@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Artisan;
 | simple approach to interacting with each command's IO methods.
 |
 */
+ 
+// prueba de cambiso 
 
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
